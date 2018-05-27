@@ -1,0 +1,80 @@
+html
+{
+    min-height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9b1c8aaccdc1a980f26c60016117fc60&auto=format&fit=crop&w=1049&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;      
+}
+
+.formulario
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
+    background-color: #353b48;
+    opacity: 0.8;
+    padding: 50px 50px;
+}
+
+.formulario div
+{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.formulario label
+{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;        
+}
+
+.formulario .input, .formulario .textarea
+{
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.formulario select 
+{     
+    background-color: transparent;
+    color: white;
+}
+
+option.option
+{
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: black;
+}
+
+label.radio:hover, label.checkbox:hover
+{
+    background-color: transparent;
+    color: white;
+}
+
+label.checkbox
+{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.enviar
+{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+a.button
+{
+    border-radius: 0px;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}

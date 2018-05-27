@@ -1,0 +1,87 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bulma Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+
+<body>
+
+    <div class="formulario">
+        <form>
+            <div class="field">
+                <label for="nome" class="label">Nome</label>
+                <div class="control">
+                    <input type="text" class="input">
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="email" class="label">Email</label>
+                <div class="control">
+                    <input type="email" class="input">
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="control">
+                    <label for="sexo" class="radio">
+                        <input type="radio" name="sexo" class="sexo" checked> Feminino
+                    </label>
+                    <label for="sexo" class="radio">
+                        <input type="radio" name="sexo" class="sexo"> Masculino
+                    </label>
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="" class="label">Área</label>
+                <div class="control">
+                    <div class="select">
+                        <select>
+                            <option class="option">ADM</option>
+                            <option class="option">RH</option>
+                            <option class="option">TI</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="" class="label">Apresentação</label>
+                <div class="control">
+                    <textarea name="" id="" rows="2" class="textarea"></textarea>
+                </div>
+            </div>
+
+            <div class="file">
+                <label class="file-label">
+                    <input class="file-input" type="file" name="resume">
+                    <span class="file-cta">
+                        <span class="file-icon">
+                            <i class="fas fa-upload"></i>
+                        </span>
+                        <span class="file-label">
+                            Upload currículo
+                        </span>
+                    </span>
+                </label>
+            </div>
+
+            <label for="" class="checkbox">
+                <input type="checkbox"> Desejo receber futuras vagas de emprego.
+            </label>
+
+            <div class="enviar">
+                <a href="" class="button is-info is-outlined">Enviar</a>
+            </div>            
+
+        </form>
+    </div>
+</body>
+</html>
